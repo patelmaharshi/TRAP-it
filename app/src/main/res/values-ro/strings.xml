@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Explora</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="bookmark_activity_title">Marcaje</string>
+    <string name="bookmark_clear_confirm">Esti sigur?</string>
+    <string name="browser_error">Instalați / Activați browserul Web.</string>
+    <string name="clear_all">Curata tot</string>
+    <string name="delete_btn_label">Șterge</string>
+    <string name="gsearch">Căutați Google</string>
+    <string name="item_deleted">Elementul a fost șters.</string>
+    <string name="lang_code">ro</string>
+    <string name="low_storage_error_lang">Detectarea limbii nu este disponibilă din cauza stocării reduse a dispozitivului</string>
+    <string name="low_storage_error_ocr">Dependențele Ocr nu pot fi descărcate din cauza stocării reduse a dispozitivului</string>
+    <string name="no_camera_permission">Această aplicație nu poate fi rulată deoarece nu are permisiunea camerei. Aplicația va ieși acum.</string>
+    <string name="no_data_available">Nimic din Marcaje</string>
+    <string name="no_result">Fara rezultate</string>
+    <string name="ok">O.K</string>
+    <string name="permission_camera_rationale">Accesul la cameră este necesar pentru detectare</string>
+    <string name="search_app_error">Aplicația de căutare este dezactivată.</string>
+    <string name="selected">selectat</string>
+    <string name="selected_count">%1$s selectat</string>
+    <string name="translate_info_lang">Tradus de la</string>
+    <string-array name="wiki_hosts">
+        <item>https://ro.m.wikipedia.org</item>
+        <item>https://ro.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://ro.m.wikinews.org</item>
+        <item>https://ro.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Dicţionar</item>
+        <item>Mass-media</item>
+        <item>News</item>
+        <item>Călătorie</item>
+    </string-array>
+    <string name="results_activity_title">rezultatele cautarii</string>
+    <string name="suggestion">Miałeś na myśli......</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Verkennen</string>
+    <string name="bookmark">Bladwijzer</string>
+    <string name="bookmark_activity_title">Bookmarks</string>
+    <string name="bookmark_clear_confirm">Weet je het zeker?</string>
+    <string name="browser_error">Web browser installeren / inschakelen.</string>
+    <string name="clear_all">Wis alles</string>
+    <string name="delete_btn_label">Verwijderen</string>
+    <string name="gsearch">Zoek naar google</string>
+    <string name="item_deleted">Item verwijderd.</string>
+    <string name="lang_code">nl</string>
+    <string name="low_storage_error_lang">Taal detectie is niet beschikbaar wegens lage opslag van apparaten</string>
+    <string name="low_storage_error_ocr">Ocr afhankelijkheden kunnen niet worden gedownload door lage opslag van apparaten</string>
+    <string name="no_camera_permission">Deze applicatie kan niet worden uitgevoerd omdat het geen toestemming heeft van de camera. De applicatie gaat nu af.</string>
+    <string name="no_data_available">Niets in bookmarks</string>
+    <string name="no_result">Geen resultaten</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Toegang tot de camera is nodig voor detectie</string>
+    <string name="search_app_error">De zoekapp is uitgeschakeld.</string>
+    <string name="selected">gekozen</string>
+    <string name="selected_count">%1$s gekozen</string>
+    <string name="translate_info_lang">Vertaald uit</string>
+    <string-array name="wiki_hosts">
+        <item>https://nl.m.wikipedia.org</item>
+        <item>https://nl.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://nl.m.wikinews.org</item>
+        <item>https://nl.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Woordenboek</item>
+        <item>Media</item>
+        <item>Nieuws</item>
+        <item>Reis</item>
+    </string-array>
+    <string name="results_activity_title">Zoekresultaten</string>
+    <string name="suggestion">Bedoelde je</string>
+</resources>

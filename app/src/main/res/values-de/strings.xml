@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Erforschen</string>
+    <string name="bookmark">Lesezeichen</string>
+    <string name="bookmark_activity_title">Lesezeichen</string>
+    <string name="bookmark_clear_confirm">Bist du sicher?</string>
+    <string name="browser_error">Installieren / Aktivieren des Webbrowsers.</string>
+    <string name="clear_all">Alles löschen</string>
+    <string name="delete_btn_label">Löschen</string>
+    <string name="gsearch">Google suchen</string>
+    <string name="item_deleted">Artikel gelöscht.</string>
+    <string name="lang_code">de</string>
+    <string name="low_storage_error_lang">Die Spracherkennung ist aufgrund der geringen Gerätespeicherung nicht verfügbar</string>
+    <string name="low_storage_error_ocr">Ocr-Abhängigkeiten können nicht heruntergeladen werden</string>
+    <string name="no_camera_permission">Diese Anwendung kann nicht ausgeführt werden, da sie nicht über die Berechtigung der Kamera verfügt. Die Anwendung wird nun beendet.</string>
+    <string name="no_data_available">Nichts in Lesezeichen</string>
+    <string name="no_result">Keine Ergebnisse</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Der Zugang zur Kamera wird zur Erkennung benötigt</string>
+    <string name="search_app_error">Suche App ist deaktiviert.</string>
+    <string name="selected">ausgewählt</string>
+    <string name="selected_count">%1$s ausgewählt</string>
+    <string name="translate_info_lang">Übersetzt aus</string>
+    <string-array name="wiki_hosts">
+        <item>https://de.m.wikipedia.org</item>
+        <item>https://de.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://de.m.wikinews.org</item>
+        <item>https://de.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Wörterbuch</item>
+        <item>Media</item>
+        <item>Nachrichten</item>
+        <item>Reise</item>
+    </string-array>
+    <string name="results_activity_title">Suchergebnisse</string>
+    <string name="suggestion">Hast du gemeint</string>
+</resources>

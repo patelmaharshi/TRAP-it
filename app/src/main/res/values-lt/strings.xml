@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="translate_info_lang">Išvertus iš</string>
+    <string name="selected">pasirinktas</string>
+    <string name="selected_count">%1$s pasirinktas</string>
+    <string name="search_app_error">Prieiga prie jūsų kameros reikia aptikti</string>
+    <string name="action_search">tyrinėti</string>
+    <string name="bookmark">Pažymėti</string>
+    <string name="bookmark_activity_title">Žymės</string>
+    <string name="bookmark_clear_confirm">Ar tu tuo tikras?</string>
+    <string name="browser_error">Įdiekite / Įjungti žiniatinklio naršyklę.</string>
+    <string name="clear_all">Išvalyti viską</string>
+    <string name="delete_btn_label">panaikinti</string>
+    <string name="gsearch">Ieškoti Google</string>
+    <string name="item_deleted">punktas ištrintas.</string>
+    <string name="lang_code">lt</string>
+    <string name="low_storage_error_lang">Kalbos atpažinimas yra nepasiekiamas dėl mažo prietaiso saugojimui</string>
+    <string name="low_storage_error_ocr">OCR priklausomybės negalima atsisiųsti dėl mažo prietaiso saugojimui</string>
+    <string name="no_camera_permission">Ši programa negali paleisti, nes ji neturi fotoaparato leidimą. Paraiška dabar išeiti.</string>
+    <string name="no_data_available">Niekas Bookmarks</string>
+    <string name="no_result">Jokių rezultatų</string>
+    <string name="ok">Gerai</string>
+    <string name="permission_camera_rationale">Prieiga prie fotoaparato reikia aptikti</string>
+    <string-array name="wiki_hosts">
+        <item>https://lt.m.wikipedia.org</item>
+        <item>https://lt.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://lt.m.wikinews.org</item>
+        <item>https://lt.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Vikipedija</item>
+        <item>Žodynas</item>
+        <item>Žiniasklaida</item>
+        <item>Naujienos</item>
+        <item>Kelionė</item>
+    </string-array>
+    <string name="results_activity_title">Paieškos rezultatai</string>
+    <string name="suggestion">Ar Jūs turėjote galvoje</string>
+</resources>

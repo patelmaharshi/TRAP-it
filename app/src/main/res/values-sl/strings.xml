@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Razišči</string>
+    <string name="bookmark">zaznamek</string>
+    <string name="bookmark_activity_title">Zaznamki</string>
+    <string name="bookmark_clear_confirm">Ali si prepričan?</string>
+    <string name="browser_error">Namestitev / Omogoči spletni brskalnik.</string>
+    <string name="clear_all">Počisti vse</string>
+    <string name="delete_btn_label">Brisanje</string>
+    <string name="gsearch">Iskanje Google</string>
+    <string name="item_deleted">element je bil izbrisan.</string>
+    <string name="lang_code">sl</string>
+    <string name="low_storage_error_lang">Zaznavanje jezika ni na voljo zaradi nizke shranjevanje naprave</string>
+    <string name="low_storage_error_ocr">OCR odvisnosti ni mogoče prenesti zaradi nizke shranjevanje naprave</string>
+    <string name="no_camera_permission">Ta aplikacija ne more zagnati, ker nima dovoljenja za kamero. Aplikacija se bo zdaj zaprl.</string>
+    <string name="no_data_available">Nič v Zaznamki</string>
+    <string name="no_result">ni zadetkov</string>
+    <string name="ok">v redu</string>
+    <string name="permission_camera_rationale">je potreben dostop do fotoaparata za odkrivanje</string>
+    <string name="search_app_error">Iskanje App je onemogočeno.</string>
+    <string name="selected">izbrano</string>
+    <string name="selected_count">%1$s izbrano</string>
+    <string name="translate_info_lang">Prevedeno iz</string>
+    <string-array name="wiki_hosts">
+        <item>https://sl.m.wikipedia.org</item>
+        <item>https://sl.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://sl.m.wikinews.org</item>
+        <item>https://sl.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedija</item>
+        <item>Slovar</item>
+        <item>Mediji</item>
+        <item>Novice</item>
+        <item>Plovbi</item>
+    </string-array>
+    <string name="results_activity_title">Rezultati iskanja</string>
+    <string name="suggestion">Si mislil</string>
+</resources>

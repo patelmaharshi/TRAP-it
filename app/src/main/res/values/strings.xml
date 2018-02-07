@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Trap !t</string>
+    <string name="ok">OK</string>
+    <string name="bookmark_clear_confirm">Are you sure?</string>
+    <string name="no_data_available">Nothing in Bookmarks</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error_ocr">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="low_storage_error_lang">Language detection is unavailable due to low device storage</string>
+    <string name="search_app_error">Access to your camera is needed for detection</string>
+    <string name="gsearch">Search Google</string>
+    <string name="browser_error">Install / Enable Web browser.</string>
+    <string name="translate_info_lang">Translated from</string>
+    <string name="no_result">No results</string>
+    <string name="action_search">Explore</string>
+    <string name="bookmark_activity_title">Bookmarks</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="results_activity_title">Search Results</string>
+    <string name="clear_all">Clear All</string>
+    <string name="selected_count">%1$s selected</string>
+    <string name="delete_btn_label">Delete</string>
+    <string name="item_deleted"> item deleted.</string>
+    <string name="selected">selected</string>
+    <string name="suggestion">Did you mean</string>
+    <string name="google_url" translatable="false">https://www.google.com/search?q=</string>
+    <string name="wiki_default_url" translatable="false">/w/index.php?search=</string>
+    <string name="wiki_title_intent" translatable="false">com.vrtrappers.trapit.WIKI_TITLE</string>
+    <string name="wiki_snippet_intent" translatable="false">com.vrtrappers.trapit.WIKI_SNIPPET</string>
+    <string name="host_name_intent" translatable="false">com.vrtrappers.trapit.HOST_NAME</string>
+    <string name="raw_text_intent" translatable="false">com.vrtrappers.trapit.RAW_TEXT</string>
+    <string name="lang_code">en</string>
+    <string name="web_page_url" translatable="false">file:///android_asset/index.html?q=</string>
+    <string name="encoding" translatable="false">UTF-8</string>
+    <string-array name="wiki_hosts">
+        <item>https://en.m.wikipedia.org</item>
+        <item>https://en.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://en.m.wikinews.org</item>
+        <item>https://en.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>WikiPedia</item>
+        <item>Dictionary</item>
+        <item>Media</item>
+        <item>News</item>
+        <item>Voyage</item>
+    </string-array>
+    <string name="cs" translatable="false">Czech</string>
+    <string name="da" translatable="false">Danish</string>
+    <string name="de" translatable="false">German</string>
+    <string name="en" translatable="false">English</string>
+    <string name="es" translatable="false">Spanish</string>
+    <string name="et" translatable="false">Estonian</string>
+    <string name="fi" translatable="false">Finnish</string>
+    <string name="fr" translatable="false">French</string>
+    <string name="hr" translatable="false">Croatian</string>
+    <string name="hu" translatable="false">Hungarian</string>
+    <string name="id" translatable="false">Indonesian</string>
+    <string name="it" translatable="false">Italian</string>
+    <string name="lt" translatable="false">Lithuanian</string>
+    <string name="lv" translatable="false">Latvian</string>
+    <string name="nl" translatable="false">Dutch</string>
+    <string name="no" translatable="false">Norwegian</string>
+    <string name="pl" translatable="false">Polish</string>
+    <string name="pt" translatable="false">Portuguese</string>
+    <string name="ro" translatable="false">Romanian</string>
+    <string name="sk" translatable="false">Slovak</string>
+    <string name="sl" translatable="false">Slovenian</string>
+    <string name="sv" translatable="false">Swedish</string>
+    <string name="sw" translatable="false">Swahili</string>
+    <string name="tr" translatable="false">Turkish</string>
+</resources>

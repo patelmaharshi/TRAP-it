@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Prozkoumat</string>
+    <string name="bookmark">Záložka do knihy</string>
+    <string name="bookmark_activity_title">záložky</string>
+    <string name="bookmark_clear_confirm">Jsi si jistá?</string>
+    <string name="browser_error">Při instalaci / Zapnout webový prohlížeč.</string>
+    <string name="clear_all">Vymazat vše</string>
+    <string name="delete_btn_label">Vymazat</string>
+    <string name="gsearch">Vyhledat Google</string>
+    <string name="item_deleted">položka odstraněna.</string>
+    <string name="lang_code">cs</string>
+    <string name="low_storage_error_lang">Detekce jazyk není k dispozici kvůli nízkému paměťovém zařízení</string>
+    <string name="low_storage_error_ocr">OCR závislosti nelze stáhnout z důvodu nízkého paměťovém zařízení</string>
+    <string name="no_camera_permission">Tuto aplikaci nelze spustit, protože nemá oprávnění kamery. Aplikace bude nyní ukončit.</string>
+    <string name="no_data_available">Nic v Záložky</string>
+    <string name="no_result">Žádné výsledky</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Přístup ke kameře je potřeba pro detekci</string>
+    <string name="search_app_error">Search App je zakázáno.</string>
+    <string name="selected">vybraný</string>
+    <string name="selected_count">%1$s vybrána</string>
+    <string name="translate_info_lang">Přeloženo z</string>
+    <string-array name="wiki_hosts">
+        <item>https://cs.m.wikipedia.org</item>
+        <item>https://cs.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://cs.m.wikinews.org</item>
+        <item>https://cs.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedie</item>
+        <item>Slovník</item>
+        <item>Media</item>
+        <item>Zprávy</item>
+        <item>Cesta</item>
+    </string-array>
+    <string name="results_activity_title">Výsledky vyhledávání</string>
+    <string name="suggestion">myslel jsi</string>
+</resources>

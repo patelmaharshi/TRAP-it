@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Utforska</string>
+    <string name="bookmark">Bokmärke</string>
+    <string name="bookmark_activity_title">Bokmärken</string>
+    <string name="bookmark_clear_confirm">Är du säker?</string>
+    <string name="browser_error">Installera / aktivera webbläsare.</string>
+    <string name="clear_all">Rensa alla</string>
+    <string name="delete_btn_label">Radera</string>
+    <string name="gsearch">Sök på Google</string>
+    <string name="item_deleted">Objektet raderas.</string>
+    <string name="lang_code">sv</string>
+    <string name="low_storage_error_lang">Språkdetektering är inte tillgänglig på grund av låg lagring av enheter</string>
+    <string name="low_storage_error_ocr">Ocr beroenden kan inte hämtas på grund av låg lagring av enheter</string>
+    <string name="no_camera_permission">Den här applikationen kan inte köras eftersom den inte har kameratillstånd. Applikationen avslutas nu.</string>
+    <string name="no_data_available">Ingenting i bokmärken</string>
+    <string name="no_result">Inga resultat</string>
+    <string name="ok">ok</string>
+    <string name="permission_camera_rationale">Tillgång till kameran behövs för detektering</string>
+    <string name="search_app_error">Sökappen är inaktiverad.</string>
+    <string name="selected">vald</string>
+    <string name="selected_count">%1$s vald</string>
+    <string name="translate_info_lang">Översatt från</string>
+    <string-array name="wiki_hosts">
+        <item>https://sv.m.wikipedia.org</item>
+        <item>https://sv.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://sv.m.wikinews.org</item>
+        <item>https://sv.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Lexikon</item>
+        <item>Media</item>
+        <item>Nyheter</item>
+        <item>Resa</item>
+    </string-array>
+    <string name="results_activity_title">sökresultat</string>
+    <string name="suggestion">Menade du</string>
+</resources>

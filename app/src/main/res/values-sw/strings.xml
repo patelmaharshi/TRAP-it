@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Vumbua</string>
+    <string name="bookmark">Kwanza</string>
+    <string name="bookmark_activity_title">alamisho</string>
+    <string name="bookmark_clear_confirm">Una uhakika?</string>
+    <string name="browser_error">Kufunga / Wezesha Web browser.</string>
+    <string name="clear_all">Clear All</string>
+    <string name="delete_btn_label">Futa</string>
+    <string name="gsearch">Tafuta Google</string>
+    <string name="item_deleted">imefutwa.</string>
+    <string name="lang_code">sw</string>
+    <string name="low_storage_error_lang">Lugha ya kugundua haipatikani kutokana na nafasi ndogo ya hifadhi ya kifaa</string>
+    <string name="low_storage_error_ocr">OCR maelewano haiwezi kupakuliwa ya hifadhi ni ndogo kifaa</string>
+    <string name="no_camera_permission">Programu hii inaweza kuendesha kwa sababu hana ruhusa ya kamera. Programu sasa kuondoka.</string>
+    <string name="no_data_available">Hakuna chochote katika Bookmarks</string>
+    <string name="no_result">hakuna matokeo</string>
+    <string name="ok">sawa</string>
+    <string name="permission_camera_rationale">Kufikia kamera inahitajika kwa ajili ya kugundua</string>
+    <string name="search_app_error">Tafuta na Google ni walemavu.</string>
+    <string name="selected">kuchaguliwa</string>
+    <string name="selected_count">%1$s kuchaguliwa</string>
+    <string name="translate_info_lang">Tafsiri kutoka</string>
+    <string-array name="wiki_hosts">
+        <item>https://sw.m.wikipedia.org</item>
+        <item>https://sw.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://sw.m.wikinews.org</item>
+        <item>https://sw.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Kamusi</item>
+        <item>Vyombo vya habari</item>
+        <item>Habari</item>
+        <item>Safari</item>
+    </string-array>
+    <string name="results_activity_title">Matokeo</string>
+    <string name="suggestion">Ulimaanisha</string>
+</resources>

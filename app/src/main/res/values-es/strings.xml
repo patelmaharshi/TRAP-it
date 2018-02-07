@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Explorar</string>
+    <string name="bookmark">Marcador</string>
+    <string name="bookmark_activity_title">Marcadores</string>
+    <string name="bookmark_clear_confirm">¿Estás seguro?</string>
+    <string name="browser_error">Instalar / Habilitar navegador web.</string>
+    <string name="clear_all">Limpiar todo</string>
+    <string name="delete_btn_label">Borrar</string>
+    <string name="gsearch">Busca en Google</string>
+    <string name="item_deleted">Elemento eliminado.</string>
+    <string name="lang_code">es</string>
+    <string name="low_storage_error_lang">La detección de idioma no está disponible debido al almacenamiento bajo del dispositivo</string>
+    <string name="low_storage_error_ocr">Las dependencias de Ocr no se pueden descargar debido al almacenamiento bajo del dispositivo</string>
+    <string name="no_camera_permission">Esta aplicación no se puede ejecutar porque no tiene el permiso de cámara. La aplicación saldrá ahora.</string>
+    <string name="no_data_available">Nada en Marcadores</string>
+    <string name="no_result">No hay resultados</string>
+    <string name="ok">DE ACUERDO</string>
+    <string name="permission_camera_rationale">El acceso a la cámara es necesario para la detección</string>
+    <string name="search_app_error">La aplicación de búsqueda está deshabilitada.</string>
+    <string name="selected">seleccionado</string>
+    <string name="selected_count">%1$s seleccionado</string>
+    <string name="translate_info_lang">Traducido de</string>
+    <string-array name="wiki_hosts">
+        <item>https://es.m.wikipedia.org</item>
+        <item>https://es.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://es.m.wikinews.org</item>
+        <item>https://es.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Diccionario</item>
+        <item>Medios de comunicación</item>
+        <item>Noticias</item>
+        <item>Viaje</item>
+    </string-array>
+    <string name="results_activity_title">Resultados de la búsqueda</string>
+    <string name="suggestion">Querías decir</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Fedezd fel</string>
+    <string name="bookmark">Könyvjelző</string>
+    <string name="bookmark_activity_title">Könyvjelzők</string>
+    <string name="bookmark_clear_confirm">biztos vagy ebben?</string>
+    <string name="browser_error">Telepítés / engedélyezése a Web böngészőt.</string>
+    <string name="clear_all">Kitörölni mindent</string>
+    <string name="delete_btn_label">Töröl</string>
+    <string name="gsearch">Keresés a Google</string>
+    <string name="item_deleted">elem törölve.</string>
+    <string name="lang_code">hu</string>
+    <string name="low_storage_error_lang">Nyelvfelismerés miatt nem érhető el az alacsony eszköztárhely</string>
+    <string name="low_storage_error_ocr">OCR függőségek nem lehet letölteni az alacsony eszköztárhely</string>
+    <string name="no_camera_permission">Ez az alkalmazás nem fut, mert nem rendelkezik a kamera engedélyével. Az alkalmazás most kilép.</string>
+    <string name="no_data_available">Semmi Bookmarks</string>
+    <string name="no_result">Nincs eredmény</string>
+    <string name="ok">rendben</string>
+    <string name="permission_camera_rationale">Hozzáférés a kamera szükséges kimutatására</string>
+    <string name="search_app_error">Hozzáférés a kamera szükséges kimutatására</string>
+    <string name="selected">kiválasztott</string>
+    <string name="selected_count">%1$s kiválasztott</string>
+    <string name="translate_info_lang">fordítás</string>
+    <string-array name="wiki_hosts">
+        <item>https://hu.m.wikipedia.org</item>
+        <item>https://hu.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://hu.m.wikinews.org</item>
+        <item>https://hu.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipédia</item>
+        <item>Szótár</item>
+        <item>Média</item>
+        <item>Hírek</item>
+        <item>Utazás</item>
+    </string-array>
+    <string name="results_activity_title">Keresési eredmények</string>
+    <string name="suggestion">Úgy értetted</string>
+</resources>

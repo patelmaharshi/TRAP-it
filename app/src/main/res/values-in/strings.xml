@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">diterjemahkan dari</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="bookmark_activity_title">Bookmark</string>
+    <string name="bookmark_clear_confirm">Apakah Anda yakin?</string>
+    <string name="browser_error">Install / Aktifkan browser Web.</string>
+    <string name="clear_all">Bersihkan semua</string>
+    <string name="delete_btn_label">Menghapus</string>
+    <string name="gsearch">Pencarian Google</string>
+    <string name="item_deleted">item yang dihapus.</string>
+    <string name="lang_code">id</string>
+    <string name="low_storage_error_lang">deteksi bahasa tidak tersedia karena penyimpanan perangkat rendah</string>
+    <string name="low_storage_error_ocr">Ocr dependensi tidak dapat diunduh karena penyimpanan perangkat rendah</string>
+    <string name="no_camera_permission">Aplikasi ini tidak dapat berjalan karena tidak memiliki izin kamera. Aplikasi sekarang akan keluar.</string>
+    <string name="no_data_available">Tidak ada dalam Bookmarks</string>
+    <string name="no_result">Tidak ada hasil</string>
+    <string name="ok">baik</string>
+    <string name="permission_camera_rationale">Akses ke kamera diperlukan untuk deteksi</string>
+    <string name="search_app_error">Akses ke kamera diperlukan untuk deteksi...</string>
+    <string name="selected">terpilih</string>
+    <string name="selected_count">%1$s terpilih</string>
+    <string name="translate_info_lang">diterjemahkan dari</string>
+    <string-array name="wiki_hosts">
+        <item>https://id.m.wikipedia.org</item>
+        <item>https://id.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://id.m.wikinews.org</item>
+        <item>https://id.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Kamus</item>
+        <item>Media</item>
+        <item>Berita</item>
+        <item>Perjalanan</item>
+    </string-array>
+    <string name="results_activity_title">Hasil Pencarian</string>
+    <string name="suggestion">Apakah yang kamu maksud</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="translate_info_lang">prevedeno s</string>
+    <string name="selected">odabran</string>
+    <string name="selected_count">%1$s odabran</string>
+    <string name="search_app_error">Pristup fotoaparatu je potrebno za otkrivanje</string>
+    <string name="action_search">Istražiti</string>
+    <string name="bookmark">Označite</string>
+    <string name="bookmark_activity_title">Oznake</string>
+    <string name="bookmark_clear_confirm">Jesi li siguran?</string>
+    <string name="browser_error">Instalacija / Omogući web-preglednik.</string>
+    <string name="clear_all">Očistiti sve</string>
+    <string name="delete_btn_label">Izbrisati</string>
+    <string name="gsearch">Pretraži Google</string>
+    <string name="item_deleted">stavka izbrisana.</string>
+    <string name="lang_code">hr</string>
+    <string name="low_storage_error_lang">Prepoznavanje jezika nije dostupan zbog niske uređaj za spremanje podataka</string>
+    <string name="low_storage_error_ocr">OCR ovisnosti ne može preuzeti jer nema dovoljno pohrane uređaja</string>
+    <string name="no_camera_permission">Ova aplikacija ne može pokrenuti jer nema dozvolu fotoaparata. Aplikacija će se sada izlaz.</string>
+    <string name="no_data_available">Ništa u Bookmarks</string>
+    <string name="no_result">Nema rezultata</string>
+    <string name="ok">u redu</string>
+    <string name="permission_camera_rationale">Pristup kameri je potrebno za otkrivanje</string>
+    <string-array name="wiki_hosts">
+        <item>https://hr.m.wikipedia.org</item>
+        <item>https://hr.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://hr.m.wikinews.org</item>
+        <item>https://hr.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedija</item>
+        <item>Rječnik</item>
+        <item>Media</item>
+        <item>Vijesti</item>
+        <item>Putovanje</item>
+    </string-array>
+    <string name="results_activity_title">Rezultati pretraživanja</string>
+    <string name="suggestion">Jesi li mislio</string>
+</resources>

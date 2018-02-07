@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Udforske</string>
+    <string name="bookmark">bogmærke</string>
+    <string name="bookmark_activity_title">bogmærker</string>
+    <string name="bookmark_clear_confirm">Er du sikker?</string>
+    <string name="browser_error">Ved installation / Aktiver webbrowser.</string>
+    <string name="clear_all">Ryd alle</string>
+    <string name="delete_btn_label">klar</string>
+    <string name="selected_count">%1$s valgt</string>
+    <string name="gsearch">Søg på Google</string>
+    <string name="item_deleted">post slettet.</string>
+    <string name="lang_code">da</string>
+    <string name="low_storage_error_lang">Sprogregistrering er tilgængelig på grund af lav lagerenhed</string>
+    <string name="low_storage_error_ocr">OCR afhængigheder kan ikke downloades på grund af lav lagerenhed</string>
+    <string name="no_camera_permission">Dette program kan ikke køre, fordi det ikke har kameraet tilladelse. Applikationen vil nu afslutte.</string>
+    <string name="no_data_available">Intet i Bogmærker</string>
+    <string name="no_result">Ingen resultater</string>
+    <string name="ok">Okay</string>
+    <string name="permission_camera_rationale">Der er behov for adgang til kameraet til påvisning</string>
+    <string name="search_app_error">Søg App er deaktiveret.</string>
+    <string name="selected">valgte</string>
+    <string name="translate_info_lang">oversat fra</string>
+    <string-array name="wiki_hosts">
+        <item>https://da.m.wikipedia.org</item>
+        <item>https://da.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://da.m.wikinews.org</item>
+        <item>https://da.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Ordbog</item>
+        <item>Medier</item>
+        <item>Nyheder</item>
+        <item>Rejse</item>
+    </string-array>
+    <string name="results_activity_title">Søgeresultater</string>
+    <string name="suggestion">mente du</string>
+</resources>

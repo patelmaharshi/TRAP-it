@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Tutkia</string>
+    <string name="bookmark">Kirjanmerkki</string>
+    <string name="bookmark_activity_title">kirjanmerkit</string>
+    <string name="bookmark_clear_confirm">Oletko varma?</string>
+    <string name="browser_error">Asentaa / Ota Web-selain.</string>
+    <string name="clear_all">Tyhjennä</string>
+    <string name="delete_btn_label">Poistaa</string>
+    <string name="gsearch">Hae Googlesta</string>
+    <string name="item_deleted">kohteen poistanut.</string>
+    <string name="lang_code">fi</string>
+    <string name="low_storage_error_lang">Kieli tunnistus on käytettävissä, koska alhainen laitteen tallennustilaa</string>
+    <string name="low_storage_error_ocr">OCR riippuvuuksia ei voi ladata alhaisen laitteen tallennustilaa</string>
+    <string name="no_camera_permission">Tämä sovellus ei voi käyttää, koska se ei ole kameraa lupaa. Sovellus suljetaan nyt.</string>
+    <string name="no_data_available">Mikään kirjanmerkit</string>
+    <string name="no_result">Ei tuloksia</string>
+    <string name="ok">kunnossa</string>
+    <string name="permission_camera_rationale">Pääsy kameraan tarvitaan havaitsemiseen</string>
+    <string name="search_app_error">Pääsy kameran tarvitaan havaitsemiseen</string>
+    <string name="selected">valittu</string>
+    <string name="selected_count">%1$s valittu</string>
+    <string name="translate_info_lang">käännetty</string>
+    <string-array name="wiki_hosts">
+        <item>https://fi.m.wikipedia.org</item>
+        <item>https://fi.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://fi.m.wikinews.org</item>
+        <item>https://fi.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Sanakirja</item>
+        <item>Tiedotusvälineet</item>
+        <item>Uutiset</item>
+        <item>Matka</item>
+    </string-array>
+    <string name="results_activity_title">Hakutulokset</string>
+    <string name="suggestion">Tarkoititko</string>
+</resources>

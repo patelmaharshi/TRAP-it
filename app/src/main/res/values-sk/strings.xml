@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Preskúmajte</string>
+    <string name="bookmark">Záložka</string>
+    <string name="bookmark_activity_title">Záložky</string>
+    <string name="bookmark_clear_confirm">Si si istý?</string>
+    <string name="browser_error">Inštalovať / Aktivovať webový prehliadač.</string>
+    <string name="clear_all">Zmazať všetko</string>
+    <string name="delete_btn_label">Odstrániť</string>
+    <string name="gsearch">Hľadať Google</string>
+    <string name="item_deleted">Položka bola odstránená.</string>
+    <string name="lang_code">sk</string>
+    <string name="low_storage_error_lang">Detekcia jazyka nie je dostupná z dôvodu nízkeho ukladania zariadení</string>
+    <string name="low_storage_error_ocr">Závislosti okr nie je možné prevziať z dôvodu nízkeho ukladania zariadení</string>
+    <string name="no_camera_permission">Táto aplikácia sa nemôže spustiť, pretože nemá povolenie kamery. Aplikácia teraz skončí.</string>
+    <string name="no_data_available">Nič v záložkách</string>
+    <string name="no_result">Žiadne výsledky</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Prístup k fotoaparátu je potrebný na detekciu</string>
+    <string name="search_app_error">Aplikácia vyhľadávania je zakázaná.</string>
+    <string name="selected">vybraný</string>
+    <string name="selected_count">%1$s vybraný</string>
+    <string name="translate_info_lang">Preložené z</string>
+    <string-array name="wiki_hosts">
+        <item>https://sk.m.wikipedia.org</item>
+        <item>https://sk.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://sk.m.wikinews.org</item>
+        <item>https://sk.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Slovník</item>
+        <item>Médiá</item>
+        <item>Noviny</item>
+        <item>Plavba</item>
+    </string-array>
+    <string name="results_activity_title">Výsledky vyhľadávania</string>
+    <string name="suggestion">Myslel si</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">izpētīt</string>
+    <string name="bookmark">grāmatzīme</string>
+    <string name="bookmark_activity_title">Grāmatzīmes</string>
+    <string name="bookmark_clear_confirm">Vai tu esi pārliecināts?</string>
+    <string name="browser_error">Instalēt / Iespējot tīmekļa pārlūkprogrammu.</string>
+    <string name="clear_all">Iztīrīt visu</string>
+    <string name="delete_btn_label">izdzēst</string>
+    <string name="gsearch">Meklēt Google</string>
+    <string name="item_deleted">izdzēsa vienumu.</string>
+    <string name="lang_code">lv</string>
+    <string name="low_storage_error_lang">Valodas noteikšana ir pieejama, jo zemā ierīces atmiņā</string>
+    <string name="low_storage_error_ocr">OCR atkarību nevar lejupielādēt zemā ierīces atmiņā</string>
+    <string name="no_camera_permission">Šo lietojumprogrammu nevar palaist, jo tas nav kameras atļauja. Programma tagad izietu.</string>
+    <string name="no_data_available">Nekas Grāmatzīmes</string>
+    <string name="no_result">Nav rezultātu</string>
+    <string name="ok">labi</string>
+    <string name="permission_camera_rationale">Piekļuve kamerai ir nepieciešama noteikšanai</string>
+    <string name="search_app_error">Meklēt App ir atspējots.</string>
+    <string name="selected">atlasīts</string>
+    <string name="selected_count">%1$s atlasīts</string>
+    <string name="translate_info_lang">tulkots no</string>
+    <string-array name="wiki_hosts">
+        <item>https://lv.m.wikipedia.org</item>
+        <item>https://lv.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://lv.m.wikinews.org</item>
+        <item>https://lv.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Vikipēdija</item>
+        <item>Vārdnīca</item>
+        <item>Media</item>
+        <item>Jaunumi</item>
+        <item>Ceļojums</item>
+    </string-array>
+    <string name="results_activity_title">Meklēšanas rezultāti</string>
+    <string name="suggestion">Vai tu domāji</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">uurima</string>
+    <string name="bookmark">järjehoidja</string>
+    <string name="bookmark_activity_title">Järjehoidjad</string>
+    <string name="bookmark_clear_confirm">Oled sa kindel?</string>
+    <string name="browser_error">Paigalda / Luba veebibrauser.</string>
+    <string name="clear_all">Kustuta kõik</string>
+    <string name="delete_btn_label">kustutama</string>
+    <string name="gsearch">Otsing Google</string>
+    <string name="item_deleted">toode välja.</string>
+    <string name="lang_code">et</string>
+    <string name="low_storage_error_lang">Keele tuvastamine on saadaval tänu madalale seadme mäluruumi</string>
+    <string name="low_storage_error_ocr">OCR sõltuvused ei saa alla laadida tõttu madal seadme mäluruumi</string>
+    <string name="no_camera_permission">See rakendus ei tööta, sest see ei ole kaamera loata. Rakendus nüüd väljuda.</string>
+    <string name="no_data_available">Miski Bookmarks</string>
+    <string name="no_result">Tulemused puuduvad</string>
+    <string name="ok">Okei</string>
+    <string name="permission_camera_rationale">Ligipääs kaamerale on vaja avastamise</string>
+    <string name="search_app_error">Otsi App on keelatud.</string>
+    <string name="selected">väljavalitud</string>
+    <string name="selected_count">%1$s väljavalitud</string>
+    <string name="translate_info_lang">tõlgitud</string>
+    <string-array name="wiki_hosts">
+        <item>https://et.m.wikipedia.org</item>
+        <item>https://et.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://et.m.wikinews.org</item>
+        <item>https://et.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Vikipeedia</item>
+        <item>Sõnastik</item>
+        <item>Andmekandja</item>
+        <item>Uudised</item>
+        <item>Reis</item>
+    </string-array>
+    <string name="results_activity_title">Otsingu tulemused</string>
+    <string name="suggestion">Kas sa mõtlesid</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Esplorare</string>
+    <string name="bookmark">Segnalibro</string>
+    <string name="bookmark_activity_title">segnalibri</string>
+    <string name="bookmark_clear_confirm">Sei sicuro?</string>
+    <string name="gsearch">Cerca con Google</string>
+    <string name="delete_btn_label">Elimina</string>
+    <string name="clear_all">Cancella tutto</string>
+    <string name="browser_error">Installare / Abilita Web browser.</string>
+    <string name="item_deleted">elemento eliminato.</string>
+    <string name="lang_code">it</string>
+    <string name="low_storage_error_lang">rilevamento della lingua è disponibile a causa di storage a basso dispositivo</string>
+    <string name="low_storage_error_ocr">dipendenze OCR non possono essere scaricati a causa di conservazione a bassa dispositivo</string>
+    <string name="no_camera_permission">Questa applicazione non può funzionare perché non ha l\'autorizzazione fotocamera. L\'applicazione verrà terminata.</string>
+    <string name="no_data_available">Nulla in Bookmarks</string>
+    <string name="no_result">Nessun risultato</string>
+    <string name="ok">ok</string>
+    <string name="permission_camera_rationale">L\'accesso alla telecamera è necessaria per il rilevamento</string>
+    <string name="search_app_error">L\'accesso alla vostra macchina fotografica è necessaria per il rilevamento</string>
+    <string name="selected">selezionato</string>
+    <string name="selected_count">%1$s selezionato</string>
+    <string name="translate_info_lang">tradotto dal</string>
+    <string-array name="wiki_hosts">
+        <item>https://it.m.wikipedia.org</item>
+        <item>https://it.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://it.m.wikinews.org</item>
+        <item>https://it.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Dizionario</item>
+        <item>Media</item>
+        <item>Notizia</item>
+        <item>Viaggio</item>
+    </string-array>
+    <string name="results_activity_title">risultati di ricerca</string>
+    <string name="suggestion">Intendevi</string>
+</resources>

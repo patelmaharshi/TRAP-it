@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Explorar</string>
+    <string name="bookmark">marca páginas</string>
+    <string name="bookmark_activity_title">Favoritos</string>
+    <string name="bookmark_clear_confirm">Você tem certeza?</string>
+    <string name="browser_error">Instalar / Ativar navegador da Web.</string>
+    <string name="clear_all">Limpar tudo</string>
+    <string name="delete_btn_label">Excluir</string>
+    <string name="gsearch">Pesquisar no Google</string>
+    <string name="item_deleted">Item excluído.</string>
+    <string name="lang_code">pt</string>
+    <string name="low_storage_error_lang">A detecção de idioma não está disponível devido ao baixo armazenamento do dispositivo</string>
+    <string name="low_storage_error_ocr">As dependências do Ocr não podem ser baixadas devido ao baixo armazenamento do dispositivo</string>
+    <string name="no_camera_permission">Esta aplicação não pode ser executada porque não tem a permissão da câmara. O aplicativo será encerrado.</string>
+    <string name="no_data_available">Nada em Marcadores</string>
+    <string name="no_result">Nenhum resultado</string>
+    <string name="ok">Está bem</string>
+    <string name="permission_camera_rationale">O acesso à câmera é necessário para a detecção</string>
+    <string name="search_app_error">A App de pesquisa está desativada.</string>
+    <string name="selected">selecionado</string>
+    <string name="selected_count">%1$s selecionado</string>
+    <string name="translate_info_lang">Traduzido de</string>
+    <string-array name="wiki_hosts">
+        <item>https://pt.m.wikipedia.org</item>
+        <item>https://pt.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://pt.m.wikinews.org</item>
+        <item>https://pt.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Dicionário</item>
+        <item>Meios de comunicação</item>
+        <item>Notícia</item>
+        <item>Viagem</item>
+    </string-array>
+    <string name="results_activity_title">Procurar Resultados</string>
+    <string name="suggestion">Miałeś na myśli...</string>
+</resources>

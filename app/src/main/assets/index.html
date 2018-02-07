@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="jquery.mobile.custom.min.js"></script>
+<script type="text/javascript">
+$.extend({
+  getUrlVars: function(){
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+      hash = hashes[i].split('=');
+      vars.push(hash[0]);
+      vars[hash[0]] = hash[1];
+    }
+    return vars;
+  },
+  getUrlVar: function(name){
+    return $.getUrlVars()[name];
+  }
+});
+function cartesianProduct(arr)
+{
+    return arr.reduce(function(a,b){
+        return a.map(function(x){
+            return b.map(function(y){
+                return x.concat(y);
+            })
+        }).reduce(function(a,b){ return a.concat(b) },[])
+    }, [[]])
+}
+function refreshBM(){
+if($('#favorite').is(":visible")){
+    if(android.isBookmarked(data["query"]["search"][index]["title"])){
+            isfav=true;
+            $('#favorite').attr('src','ic_bookmark_black_24dp_1x.png');
+        }
+        else{
+            isfav=false;
+            $('#favorite').attr('src','ic_bookmark_border_black_24dp_1x.png');
+        }
+}
+}
+if (android.getLanguageStr().size!=0) {
+		var punctRE = /[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,\-.\/:;<=>?@\[\]^_`{|}~]/g;
+		var spaceRE = /\s+/g;
+		var str = decodeURIComponent($.getUrlVar('q'));
+		str=str.replace(punctRE, '').replace(spaceRE, '|');
+		var langURL='https://'+android.getLanguageStr()+'.wiktionary.org/w/api.php?action=query&format=json&prop=iwlinks&titles='+str+'&iwprefix='+android.getSystemLang()+'&callback=?';
+		$.getJSON(langURL,function(hashdata){
+		var langresult=hashdata;
+		var transresult=[];
+			$.each(langresult["query"]["pages"], function(key, value){
+				var aresult=[];
+				if(value.hasOwnProperty("iwlinks")){
+					$.each(value["iwlinks"],function(key,value){
+						aresult.push(value["*"]+" ");
+					});
+					transresult.push(aresult);
+				}
+			});
+			disptrans=cartesianProduct(transresult);
+			if(disptrans[0].length!=0){
+				var transindex=0;
+				$("#header").html("<b>"+disptrans[transindex].join(" ").replace('Special:Search/', '').replace('_', ' ')+"</b><small>("+android.getTransInfo()+" "+android.getLangFromCode()+")</small><hr>");
+				$("#msgid").css('margin-top',$("#header").height());
+				$( "#header" ).on( "swipeleft", function (event){
+					if(transindex == disptrans.length-1){
+						return;
+					}
+					$( this ).fadeOut(500, function() {transindex++; $("#header").html("<b>"+disptrans[transindex].join(" ").replace('Special:Search/', '').replace('_', ' ')+"</b><small>("+android.getTransInfo()+" "+android.getLangFromCode()+")</small><hr>").fadeIn(500);});
+					$("#msgid").css('margin-top',$("#header").height());
+				} );
+
+				$( "#header" ).on( "swiperight", function (event){
+					if(transindex == 0){
+						return;
+					}
+					$( this ).fadeOut(500, function() {transindex--; $("#header").html("<b>"+disptrans[transindex].join(" ").replace('Special:Search/', '').replace('_', ' ')+"</b><small>("+android.getTransInfo()+" "+android.getLangFromCode()+")</small><hr>").fadeIn(500);});
+					$("#msgid").css('margin-top',$("#header").height());
+				} );
+			}
+		});
+	}
+var index=0;
+var data;
+var isfav=false;
+	var wikiInfoURL = 'https://'+android.getSystemLang()+'.wikipedia.org/w/api.php?action=query&format=json&list=search&srprop=snippet&srsearch='+$.getUrlVar('q')+'&callback=?';
+	$.getJSON(wikiInfoURL ,function(hash) {
+		data = hash;
+		if(data["query"]["searchinfo"]["totalhits"]!=0){
+		if(data["query"]["searchinfo"].hasOwnProperty("suggestionsnippet")){
+            android.setrawText(data["query"]["search"][index]["snippet"]);
+			data["query"]["search"][index]["snippet"]=android.getSuggestStr()+" <a href='index.html?q="+data["query"]["searchinfo"]["suggestion"]+"'>"+data["query"]["searchinfo"]["suggestionsnippet"]+"?</a><hr>"+data["query"]["search"][index]["snippet"];
+		}
+		$("#msgid").html(data["query"]["search"][index]["snippet"]);
+        if(android.isBookmarked(data["query"]["search"][index]["title"])){
+            isfav=true;
+            $('#favorite').attr('src','ic_bookmark_black_24dp_1x.png');
+        }
+        else{
+            isfav=false;
+            $('#favorite').attr('src','ic_bookmark_border_black_24dp_1x.png');
+        }
+        $('#msgid').css('margin-right',$('#favorite').width());
+        $('#favorite').show();
+        $('#favorite').on('tap',function(){
+            if(isfav){
+                isfav=android.removeBookmark(data["query"]["search"][index]["title"]);
+                if(!isfav){
+                    $('#favorite').attr('src','ic_bookmark_border_black_24dp_1x.png');
+                }
+            }
+            else{
+                isfav=android.addBookmark(data["query"]["search"][index]["title"],$("#msgid").text());
+                if(isfav){
+                    $('#favorite').attr('src','ic_bookmark_black_24dp_1x.png');
+                }
+            }
+        });
+		$( "#msgid" ).on( "swipeleft", function (event){
+			if(index == data.query.search.length-1){
+			return;
+			}
+			$( "#msgid" ).fadeOut(500, function() {
+			    index++; $("#msgid").html(data["query"]["search"][index]["snippet"]).fadeIn(500);
+			    if(android.isBookmarked(data["query"]["search"][index]["title"])){
+                    isfav=true;
+                    $('#favorite').attr('src','ic_bookmark_black_24dp_1x.png');
+                }
+                else{
+                    isfav=false;
+                    $('#favorite').attr('src','ic_bookmark_border_black_24dp_1x.png');
+                }
+			});} );
+		
+		$( "#msgid" ).on( "swiperight", function (event){
+			if(index == 0){
+				return;
+			}
+			$( this ).fadeOut(500, function() {
+			    index--; $("#msgid").html(data["query"]["search"][index]["snippet"]).fadeIn(500);
+			    if(android.isBookmarked(data["query"]["search"][index]["title"])){
+                    isfav=true;
+                    $('#favorite').attr('src','ic_bookmark_black_24dp_1x.png');
+                }
+                else{
+                    isfav=false;
+                    $('#favorite').attr('src','ic_bookmark_border_black_24dp_1x.png');
+                }
+			});} );
+		}
+		else{
+		var noresult;
+		if(data["query"]["searchinfo"].hasOwnProperty("suggestionsnippet")){
+			noresult=android.getSuggestStr()+" <a href='index.html?q="+data["query"]["searchinfo"]["suggestion"]+"'>"+data["query"]["searchinfo"]["suggestionsnippet"]+"?</a><hr>"+android.getNoResultStr();;
+		}
+		else{noresult=android.getNoResultStr();}
+		$("#msgid").html(noresult);
+		}
+		$("#msgid").on("tap",function (event){
+		    if(event.target!=this) return;
+		    if(data["query"]["searchinfo"]["totalhits"]!=0){
+            android.onTapStart(data["query"]["search"][index]["title"],$("#msgid").text());}
+		});
+	});
+</script>
+<style>
+.searchmatch{font-weight : bold;}
+#header{ position: fixed; top: 0;}
+#favorite{position:fixed;right:0;display:none;}
+</style>
+</head>
+<body>
+<div id="header"></div>
+<img id='favorite'/>
+<div id="msgid"></div>
+</body>
+</html>

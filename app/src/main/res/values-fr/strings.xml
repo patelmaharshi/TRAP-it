@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Explorer</string>
+    <string name="bookmark">Signet</string>
+    <string name="bookmark_activity_title">Signets</string>
+    <string name="bookmark_clear_confirm">Êtes-vous sûr?</string>
+    <string name="browser_error">Installer / Activer le navigateur Web.</string>
+    <string name="clear_all">Tout effacer</string>
+    <string name="delete_btn_label">Effacer</string>
+    <string name="gsearch">Rechercher Google</string>
+    <string name="item_deleted">Élément supprimé.</string>
+    <string name="lang_code">fr</string>
+    <string name="low_storage_error_lang">La détection de langue n\'est pas disponible en raison du faible stockage de l\'appareil</string>
+    <string name="low_storage_error_ocr">Les dépendances d\'Ocr ne peuvent pas être téléchargées en raison du faible stockage de l\'appareil</string>
+    <string name="no_camera_permission">Cette application ne peut pas s\'exécuter car elle n\'a pas l\'autorisation de la caméra. L\'application va maintenant quitter.</string>
+    <string name="no_data_available">Rien dans les favoris</string>
+    <string name="no_result">Aucun résultat</string>
+    <string name="ok">D\'accord</string>
+    <string name="permission_camera_rationale">L\'accès à la caméra est nécessaire pour la détection</string>
+    <string name="search_app_error">L\'accès à votre caméra est nécessaire pour la détection</string>
+    <string name="selected">choisi</string>
+    <string name="selected_count">%1$s choisi</string>
+    <string name="translate_info_lang">Traduit de</string>
+    <string-array name="wiki_hosts">
+        <item>https://fr.m.wikipedia.org</item>
+        <item>https://fr.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://fr.m.wikinews.org</item>
+        <item>https://fr.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipédia</item>
+        <item>Dictionnaire</item>
+        <item>Médias</item>
+        <item>Nouvelles</item>
+        <item>Voyage</item>
+    </string-array>
+    <string name="results_activity_title">Résultats de la recherche</string>
+    <string name="suggestion">Vouliez-vous dire</string>
+</resources>

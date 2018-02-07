@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Badać</string>
+    <string name="bookmark">Zakładka</string>
+    <string name="bookmark_activity_title">Zakładki</string>
+    <string name="bookmark_clear_confirm">Jesteś pewny?</string>
+    <string name="browser_error">Zainstaluj / włącz przeglądarkę internetową.</string>
+    <string name="clear_all">Wyczyść wszystko</string>
+    <string name="delete_btn_label">Kasować</string>
+    <string name="gsearch">Szukaj Google</string>
+    <string name="item_deleted">Usunięty element.</string>
+    <string name="lang_code">pl</string>
+    <string name="low_storage_error_lang">Wykrywanie języka jest niedostępne ze względu na małą pojemność pamięci urządzenia</string>
+    <string name="low_storage_error_ocr">Nie można pobrać pakietów zależnych od OCR z powodu małej pamięci urządzenia</string>
+    <string name="no_camera_permission">Ta aplikacja nie może działać, ponieważ nie ma uprawnień aparatu. Aplikacja zostanie teraz zamknięta.</string>
+    <string name="no_data_available">Nic w Zakładkach</string>
+    <string name="no_result">Brak wyników</string>
+    <string name="ok">ok</string>
+    <string name="permission_camera_rationale">Do wykrycia potrzebny jest dostęp do kamery</string>
+    <string name="search_app_error">Aplikacja wyszukiwania jest wyłączona.</string>
+    <string name="selected">wybrany</string>
+    <string name="selected_count">%1$s wybrany</string>
+    <string name="translate_info_lang">Przetłumaczono z</string>
+    <string-array name="wiki_hosts">
+        <item>https://pl.m.wikipedia.org</item>
+        <item>https://pl.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://pl.m.wikinews.org</item>
+        <item>https://pl.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Wikipedia</item>
+        <item>Słownik</item>
+        <item>Głoska bezdźwięczna</item>
+        <item>Aktualności</item>
+        <item>Rejs</item>
+    </string-array>
+    <string name="results_activity_title">Wyniki wyszukiwania</string>
+    <string name="suggestion">Miałeś na myśli</string>
+</resources>

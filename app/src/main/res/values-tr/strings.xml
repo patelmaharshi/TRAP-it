@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Keşfetmek</string>
+    <string name="bookmark">Yer imi</string>
+    <string name="bookmark_activity_title">Yer imleri</string>
+    <string name="bookmark_clear_confirm">Emin misiniz?</string>
+    <string name="browser_error">Web tarayıcısını kurun / etkinleştirin.</string>
+    <string name="clear_all">Hepsini temizle</string>
+    <string name="delete_btn_label">Sil</string>
+    <string name="gsearch">Google\'da Ara</string>
+    <string name="item_deleted">Öğe silindi.</string>
+    <string name="lang_code">tr</string>
+    <string name="low_storage_error_lang">Düşük cihaz depolaması nedeniyle dil algılaması kullanılamıyor</string>
+    <string name="low_storage_error_ocr">Düşük cihaz depolaması nedeniyle Ocr bağımlılıkları indirilemiyor</string>
+    <string name="no_camera_permission">Kamera iznine sahip olmadığı için bu uygulama çalıştırılamıyor. Uygulama şimdi çıkacaktır.</string>
+    <string name="no_data_available">Yer İşaretlerinde hiçbir şey yok</string>
+    <string name="no_result">Sonuç yok</string>
+    <string name="ok">tamam</string>
+    <string name="permission_camera_rationale">Algılama için kameraya erişim gerekiyor</string>
+    <string name="search_app_error">Arama Uygulaması devre dışı.</string>
+    <string name="selected">Seçilmiş</string>
+    <string name="selected_count">%1$s Seçilmiş</string>
+    <string name="translate_info_lang">Çeviri</string>
+    <string-array name="wiki_hosts">
+        <item>https://tr.m.wikipedia.org</item>
+        <item>https://tr.m.wiktionary.org</item>
+        <item>https://commons.m.wikimedia.org</item>
+        <item>https://tr.m.wikinews.org</item>
+        <item>https://tr.m.wikivoyage.org</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Vikipedi</item>
+        <item>Sözlük</item>
+        <item>Medya</item>
+        <item>Haber</item>
+        <item>Yolculuk</item>
+    </string-array>
+    <string name="results_activity_title">arama sonuçları</string>
+    <string name="suggestion">Demek istediğin</string>
+</resources>
